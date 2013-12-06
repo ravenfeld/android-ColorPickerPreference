@@ -65,7 +65,7 @@ public class ColorPickerPreference
 
 	@Override
 	protected Object onGetDefaultValue(TypedArray a, int index) {
-		return a.getColor(index, Color.BLACK);
+		return a.getColor(index, R.integer.COLOR_BLACK);
 	}
 
 	@Override
